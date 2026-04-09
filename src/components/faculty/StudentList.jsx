@@ -5,7 +5,7 @@ import { useAuth } from '../../hooks/useAuth';
 import * as XLSX from 'xlsx';
 import '../../styles/components.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://smart-attendance-system-backend-r2o0.onrender.com/api';
 
 const StudentList = ({ facultySection }) => {
   const { token } = useAuth();

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import AuthContext from '../contexts/AuthContext';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://smart-attendance-system-backend-r2o0.onrender.com/api';
 
 // Create axios instance with default config
 const axiosInstance = axios.create({
